@@ -1,0 +1,22 @@
+{
+  "name": "server2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Precious",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r esm -r dotenv/config server"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "iyasunday": "^1.0.74",
+    "joi": "^17.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
